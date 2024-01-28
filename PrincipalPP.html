@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina Principal</title>
+	<style>
+		input[type="submit"]{
+			display: block;
+			margin-top: 20px;
+			background-color: #2B16E7;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<h1>Cargar Archivos</h1>
+
+<form action="subir.php" method="post" enctype="multipart/form-data">
+	<input type="file" name="file">
+	<input type="submit" value="Subir">
+</form>
+
+</body>
+</html>
